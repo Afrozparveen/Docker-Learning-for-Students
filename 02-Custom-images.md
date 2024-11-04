@@ -63,4 +63,8 @@ Now, if you open a web browser and go to `http://localhost:8080`, you should see
 
 This is a basic example. Dockerfiles can get much more complex depending on your needs. You can install software, clone repositories, set environment variables, expose ports, etc. All of these are done using various Dockerfile instructions.
 
+Befor pushing the images into repository we should tag and push by using the below commands
+docker tag nginx:v1 afroz1128/nginx:v1
+docker push afroz1128/nginx:v1
+
 
